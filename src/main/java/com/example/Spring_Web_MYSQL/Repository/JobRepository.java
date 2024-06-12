@@ -1,11 +1,11 @@
 package com.example.Spring_Web_MYSQL.Repository;
 
-import com.example.Spring_Web_MYSQL.Model.User;
+import com.example.Spring_Web_MYSQL.Model.Job;
 import org.springframework.data.repository.CrudRepository;
 
 // This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository
 // CRUD refers Create, Read, Update, Delete
 
-public interface UserRepository extends CrudRepository<User, Integer> {
+public interface JobRepository extends CrudRepository<Job, Integer> {
 
 }
