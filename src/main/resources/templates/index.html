@@ -124,7 +124,6 @@
         <table>
             <thead>
             <tr>
-                <th th:text="ID"></th>
                 <th th:text="DATE"></th>
                 <th th:text="'COMPANY NAME'"></th>
                 <th th:text="'JOB TITLE'"></th>
@@ -135,7 +134,6 @@
             </thead>
             <tbody th:each="job : ${jobs}">
             <tr>
-                <td th:text="${job.Id}"></td>
                 <td th:text="${job.Date}"></td>
                 <td th:text="${job.Company_Name}"></td>
                 <td th:text="${job.Job_Title}"></td>
@@ -155,7 +153,6 @@
         <table>
             <thead>
             <tr>
-                <th th:text="ID"></th>
                 <th th:text="DATE"></th>
                 <th th:text="'COMPANY NAME'"></th>
                 <th th:text="'JOB TITLE'"></th>
