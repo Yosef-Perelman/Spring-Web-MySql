@@ -9,7 +9,7 @@ The application is a website for assistance in the job search process. It is wri
 (This project has a docker image at https://hub.docker.com/repository/docker/yosefp/spring-app-mysql)
 
 Running instructions:
-1. Make sure that 'Docker' exists on the machine you are running on (In Windows write 'docker --version').
+1. Make sure that 'Docker' exists on the machine you are running on (Write 'docker --version').
 2. Run the command 'docker pull mysql' to download MySql docker image.
 3. Run the command 'docker run --name mysql-db -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:latest' to create MySql container.
 4. Open the bash of the sql server with the command 'docker exec -it mysql-db bash'.
