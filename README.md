@@ -1,6 +1,7 @@
 # Spring-Web-MySql
 
 Welcome!
+
 Explanations about this project and running instructions:
 
 This is a project I did to exercise my theoretical knowledge in the following technologies: Spring, MySql, Docker and AWS.
